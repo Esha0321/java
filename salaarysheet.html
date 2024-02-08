@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+           for(var i=1; i<=3;i++){
+       var name=prompt("enter employee name");
+        var designation=prompt("enter your designation Ceo,Manager,Clerk ");
+        if(designation=="Ceo"){
+        
+        var basic_salary=100000
+        var  rent=20000
+        var   tax=3000
+        var  transport=2000
+        var medical_allow =2000
+         var gross_salary=tax+rent+transport+medical_allow
+         var  net_salary=basic_salary-gross_salary
+        
+       
+         document.write("designation name:"+designation+"<br> <br>")
+        document.write(" your basic_salary:"+basic_salary+"<br>")
+        document.write("rent allow:"+rent+"<br>")
+        document.write("tax:"+tax+"<br>")
+        document.write("transport :"+transport+"<br>")
+        document.write("medical_allow:"+medical_allow+"<br>")
+        document.write("gross_salary:"+gross_salary+"<br>")
+        document.write("net_salary:"+net_salary+"<br> <br>") 
+
+        }
+
+      
+        else if (designation=="Manager"){
+           
+        var basic_salary=50000
+        var  rent=10000
+        var   tax=2000
+        var  transport=1000
+        var medical_allow =1000
+         var gross_salary=tax+rent+transport+medical_allow
+         var  net_salary=basic_salary-gross_salary
+
+        
+         
+
+         document.write("  designation name:"+designation+"<br> <br>")
+        document.write(" your basic_salary:"+basic_salary+"<br>")
+        document.write("rent allow:"+rent+"<br>")
+        document.write("tax:"+tax+"<br>")
+        document.write("transport :"+transport+"<br>")
+        document.write("medical_allow:"+medical_allow+"<br>")
+        document.write("gross_salary:"+gross_salary+"<br>")
+        document.write("net_salary:"+net_salary+"<br> <br>")
+    }
+       
+        else if (designation=="Clerk"){
+           
+        var basic_salary=30000
+        var  rent=6000
+        var   tax=1000
+        var  transport=2000
+        var medical_allow =1000
+         var gross_salary=tax+rent+transport+medical_allow
+         var  net_salary=basic_salary-gross_salary
+
+        
+         document.write("  designation name:"+designation+"<br> <br>")
+        document.write(" your basic_salary:"+basic_salary+"<br>")
+        document.write("rent allow:"+rent+"<br>")
+        document.write("tax:"+tax+"<br>")
+        document.write("transport :"+transport+"<br>")
+        document.write("medical_allow:"+medical_allow+"<br>")
+        document.write("gross_salary:"+gross_salary+"<br>")
+        document.write("net_salary:"+net_salary+"<br> <br>")
+        }
+    }  
+    </script>
+</body>
+</html>
